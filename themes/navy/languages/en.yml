@@ -2,7 +2,7 @@ site:
   home:
     intro:
       title: "Private, Secure Communication"
-      description: "Status is a messenger, crypto wallet, and web3 browser leveraging state of the art technology."
+      description: "Status is a messenger, crypto wallet, and Web3 browser built with state of the art technology."
       news: "News"
     about:
       open-source:
@@ -31,6 +31,91 @@ site:
     security:
       title: "Private and Secure by Design"
       description: "Status uses state of the art technology to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Communicate with confidence."
+  features:
+    intro:
+      title: "The Power of Ethereum in Your Pocket"
+      description: "Status is a multi-purpose communication tool that combines a peer-to-peer messenger, decentralized crypto-wallet, and Web3 browser."
+      link-messenger: "Messenger"
+      link-wallet: "Crypto-wallet"
+      link-browser: "Browser & DApps"
+    messenger:
+      title: "Secure Messenger"
+      feature-1:
+        title: "Public, Private and Group Chats"
+        description: "Join any number of public channels or send private 1:1 or group chats. You can even send and receive crypto payments directly in your private chats."
+        link: "Join Status Public Channel"
+      feature-2:
+        title: "Private Messaging with Whisper"
+        description: "Whisper uses peer-to-peer dark routing–making it impossible for anyone (including us) to know anything about you or who you're communicating with. We're also conducting R&D in improved messaging protocols."
+      feature-3:
+        title: "Perfect Forward Secrecy & E2E Encryption"
+        description: "Status uses the ‘Double Ratchet’ algorithm on top of Whisper and end-to-end encryption for the highest grade of security and privacy."
+    wallet:
+      title: "Integrated Ethereum Wallet"
+      feature-1:
+        title: "A Safe Wallet"
+        description: "Removal of intermediaries puts you in control of your funds. You and only you hold your private keys to your cryptocurrency, and no middle man has access."
+      feature-2:
+        title: "ERC20 & ERC721 Compatible"
+        description: "Support for ERC20 and ERC721 tokens on the Ethereum network. Send, store, and receive your tokens confidently in Status. Contact us in the channel below to add your tokens."
+        link: "Join Status Wallet Public Channel"
+      feature-3:
+        title: "Interact with Peers & DApps"
+        description: "The Status wallet integrates with the messenger and browser–enabling you to interact with peers and DApps. All transactions require verification of a signing phrase to protect you from phishing attacks."
+    browser:
+      title: "Web3 Browser"
+      feature-1:
+        title: "Access Decentralized Applications"
+        description: "A growing ecosystem of DApps in your pocket. Browse the latest decentralized exchanges, marketplaces, games, social networks, and more."
+        link: "Install Status"
+      feature-2:
+        title: "Private & Secure Browsing"
+        description: "Status implements the latest security standards to ensure you are safe and free from tracking and data collection. Browse on your terms."
+      feature-3:
+        title: "Extend your DApp with Status"
+        description: "Extensions are a tool for developers to integrate their DApp functionality within Status in a native way. They create a seamless user experience directly in Status."
+        link: "Documentation"
+    desktop:
+      title: "Status Desktop"
+      description: "Install the desktop alpha and enjoy secure and private messaging while you work. The desktop app syncs with your mobile account for a seamless experience."
+      link: "Get Status Desktop"
+      announcement:
+        title: "Status Desktop is still in alpha. Install the nightly, help test and build it."
+        link: "Desktop FAQ's"
+    get:
+      title: "Get Status"
+      description: "Start enjoying Status on iOS, Android, MacOS, Windows and Linux."
+      link: "Download Apps"
+  get-involved:
+    index:
+      intro:
+        title: "An Open Source Community"
+        description: "Here you'll find everything you need to know about how to get involved and contribute to Status. Whether you are a developer, educator, community organizer, or a passionate supporter, there are ways for you to contribute to Status. Here are the resources to get you started."
+      resources:
+        resource-1:
+          title: "Developers"
+          description: "Status is building free and open source software licensed under the Mozilla Public License v2.0. <br><br>Community members of all backgrounds, skill levels, and interests contribute to the official Status releases. This includes open contribution to Status funded bounties and community driven initiatives for new features."
+        resource-2:
+          title: "Educators"
+          description: "Status considers education and a welcoming environment crucial for a successful open source project. <br><br>We welcome anyone to help educate others on how to build Status, use Status, get started in the community, or even share their own experiences with the project."
+        resource-3:
+          title: "Community Groups"
+          description: "There are a number of both Status run and community organized groups within the Status community. <br><br>Join an existing group or start your own group based on your personal interests. People organize all over the world to help promote and grow this open source project."
+      contributors:
+        title: "Top Community Contributors"
+        link: "Join the Status Team. See all Open Position"
+  header:
+    nav:
+      features: "Features"
+      get-involved:
+        title: "Get Involved"
+        description: "Status is an open source project made by people all over the world."
+      security: "Security"
+      docs:
+        title: "Docs"
+        documentation: "Everything you need to start developing with Status"
+      about: "About"
+      blog: "Blog"
   link:
     get-status: "Get Status"
     get-involved: "Get Involved"
@@ -38,3 +123,4 @@ site:
     educators: "Educators"
     community-groups: "Community Groups"
     learn-more: "Learn More"
+    read-all: "Read all"
