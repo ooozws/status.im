@@ -13,6 +13,10 @@ $(document).ready(function ($) {
     mobileFooterMenu(w);
   });
 
+  $('.items').masonry({
+    itemSelector: '.item'
+  });
+
   $('.about-mission .inner .inline-links a').on('click', function () {
     var id = $(this).attr('href');
     $('html, body').animate({
