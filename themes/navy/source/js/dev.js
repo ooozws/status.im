@@ -18,7 +18,7 @@ $(document).ready(function($) {
     })
   });
 
-  $('.about-mission .inner .inline-links a, .snt-intro .inline-links a').on('click', function() {
+  $('.about-mission .inner .inline-links a, .snt-intro .inline-links a, .snt-basics a[href="#using-snt"], .snt-basics a[href="#research"]').on('click', function() {
     var id = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(id).offset().top + 5
