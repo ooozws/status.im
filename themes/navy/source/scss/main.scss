@@ -2730,7 +2730,7 @@ img.qr-code{
             background: #F4F5F7;
             width: calc(50% - 30px);
             margin: 15px;
-            transition: all .3s ease;
+            transition: background .3s ease, box-shadow .3s ease;
             img{
                 max-width: 100%;
             }
@@ -3375,7 +3375,7 @@ img.qr-code{
     br{
         display: none;
     }
-    .editor-content{
+    .editor-content, p{
         br{
             display: block;
         }
