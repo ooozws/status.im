@@ -13,8 +13,10 @@ $(document).ready(function ($) {
     mobileFooterMenu(w);
   });
 
-  $('.items').masonry({
-    itemSelector: '.item'
+  $(window).on('load', function (event) {
+    $('.items').masonry({
+      itemSelector: '.item'
+    });
   });
 
   $('.about-mission .inner .inline-links a, .snt-intro .inline-links a').on('click', function () {
